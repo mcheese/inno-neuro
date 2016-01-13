@@ -7,9 +7,11 @@ Gliederung
   * Neuronale Architektur, Design
   * Konkrete Prototypen, Architekturen
     * MY-NEUPOWER
-       The application of a neurocomputer for a control problem)
-       Performance of a Bus-based Parallel Computer with
+      (The application of a neurocomputer for a control problem, 
+      Performance of a Bus-based Parallel Computer with
         Integer-Representation Processors Applied to Artificial Neural
-        Network and Parallel AI Domains
-    *  
+        Network and Parallel AI Domains)
+    * TrueNorth !
+    * SpiNNacker ???
+    * Neurogrid ???
   * Ausblick, Trends
