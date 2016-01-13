@@ -1,0 +1,52 @@
+\documentclass{beamer}
+\usetheme[usetitleprogressbar,nosmallcapitals]{m}
+\usepackage{wasysym}
+\usepackage{amsmath}
+\usepackage{minted}
+
+\usepackage{filecontents}
+
+\newenvironment{slide}[1]
+	{\begin{frame}[fragile,environment=slide]{#1}}
+	{\end{frame}}
+
+\newcommand {\fullimage}[1] {
+	\begin{center}
+		\includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{#1}
+	\end{center}
+}
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+\title{Neuro Computer Architektur}
+\subtitle{Innovative Rechnerarchitekturen}
+\date{21. Januar 2016}
+\author{Johannes Elsmann, Max Taube}
+\institute{HTWK Leipzig}
+
+\begin{document}
+\maketitle
+
+
+\begin{slide}{Ablauf}
+	\tableofcontents
+\end{slide}
+
+\input{content/knn}
+\input{content/motiv}
+\input{content/architekturen}
+\input{content/ausblick}
+
+\begin{frame}{Quellen}
+  \raggedright
+  \nocite{*}
+  \bibliographystyle{plain}
+  {\scriptsize \bibliography{literature}}
+\end{frame}
+
+\end{document}
